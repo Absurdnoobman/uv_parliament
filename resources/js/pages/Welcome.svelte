@@ -83,7 +83,7 @@
                     href={latestNews[0].href}
                 />
 
-                <!-- Secondary Stories as Compact SmallNewsCards -->
+                <!-- Secondary Stories as SmallNewsCards -->
                 <div class="flex flex-col gap-3">
                     {#each latestNews.slice(1) as item (item.id)}
                         <SmallNewsCard
